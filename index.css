@@ -1,5 +1,5 @@
-.container{
-    min-width:100%;
+.container1{
+    height: 100vh;
     background-color:whitesmoke;
     padding: 10px;
 }
@@ -59,10 +59,11 @@
     flex: row;
 }
 .side-bar{
-    width:15%; 
+    width:15%;
+    height: 85svh;
     background-color:rgb(251, 243, 243);
     border-radius:15px;
-    height:50vh;
+
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     padding: 8px;
     
@@ -97,6 +98,7 @@
 .list-heading{
     color:black;
     font:500 14px sans-serif;
+    margin:0;
 }
 .list-item:hover{
     background-color:rgb(255,244,119);
@@ -173,6 +175,7 @@
     column-gap: 10px;
     row-gap: 10px;
     width:100%;
+    overflow: auto;
     
 }
 .card-con{
@@ -199,4 +202,17 @@
     padding:30px 20px;
     border-radius: 8px;
     
+}
+.error-text{
+    color: rgb(206, 50, 50);
+    font-size: 12px;
+    font-weight: 500;
+}
+.card-btn-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10px;
+    column-gap: 10px;
+
 }

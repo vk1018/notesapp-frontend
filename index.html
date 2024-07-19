@@ -10,7 +10,7 @@
     <title>Document</title>
 </head>
 <body> 
-    <div class="container">
+    <div class="container1">
         <div class="header">
             <div class="image-container">
                 <i class="fa-solid fa-note-sticky fa-2xl" style="color: #FFD43B;"></i>
@@ -22,7 +22,7 @@
             </div>
             <div class="icons-container">
                 <i class="fa-solid fa-gear fa-lg" style="color: #171717;"></i>
-                <i class="fa-solid fa-user fa-lg"></i>
+                <i class="fa-solid fa-arrow-right-from-bracket fa-lg" title="Logout" onclick="logoutUser()"></i>
             </div>
         </div>
         <div class="body-container">
@@ -53,11 +53,11 @@
                         <i class="fa-solid fa-pen-to-square fa-sm"></i>
                         <h1 class="list-heading">Edit Labels</Label></h1>
                     </li>
-                    <li class="list-item">
+                    <li class="list-item" onclick="getArchivedNotes()">
                         <i class="fa-regular fa-folder fa-sm"></i>
                         <h1 class="list-heading">Arcihve</h1>
                     </li>
-                    <li class="list-item ">
+                    <li class="list-item " onclick="getTrasheNotes()">
                         <i class="fa-solid fa-trash fa-sm"></i>
                         <h1 class="list-heading">Trash</h1>
                     </li>
@@ -73,7 +73,7 @@
                     <textarea  columns="5" placeholder="Take a note" class="text-area" id="myNotes"></textarea>
                     <div class="buttons-con">
                         <button class="button" id="saveButton">Save</button>
-                        <button class="button" id="addButton">Add</button>
+                        <button class="button" id="addButton" onclick="createNewNotes()">Add</button>
                     </div>
                 </div>
                 <h1 class="my-task">My Task</h1>
