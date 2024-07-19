@@ -17,7 +17,7 @@ const submitSignupForm = async (e)=>{
       errorTxt.textContent = 'Sign Up Unsuccessfull'
 
 
-        let url="http://localhost:3000/create";
+        let url="https://notesapp-backend-pq8e.onrender.com/create";
 
         let userData={
             username,password
