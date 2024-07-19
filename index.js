@@ -8,8 +8,8 @@ let colours=["#f08a84", "#fbbd03", "#cffd92", "#acfee9","#e5c9ab", "#e8eaed","#c
 
 //base url
 var BASE_URL = "http://localhost:5500";
-var backend = "http://localhost:3000"
-// var BASE_URL = "http://localhost:5500/";
+// var backend = "http://localhost:3000"
+var BASE_URL = "https://vamsi-notes-app-1.netlify.app";
 
 async function togglePinned(e,id){
     let val = e.target.getAttribute('data-val')

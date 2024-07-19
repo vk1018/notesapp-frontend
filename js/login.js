@@ -1,8 +1,8 @@
 
 
 //base url
-var BASE_URL = "http://localhost:5500";
-// var BASE_URL = "http://localhost:5500/";
+// var BASE_URL = "http://localhost:5500";
+var BASE_URL = "https://vamsi-notes-app-1.netlify.app";
 
 const submitLoginForm = async (e)=>{
     e.preventDefault();
